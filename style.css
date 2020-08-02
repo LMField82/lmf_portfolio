@@ -1,0 +1,39 @@
+.body {
+    background-color: #b1b8be;
+}
+
+.navbar {
+    background-image: linear-gradient(#939d92,#b1b8be);
+}
+
+.nav-link {
+    color: #3c413b;
+    font-weight: 500;
+    font-size: x-large;
+    font-family: 'Handlee', cursive;
+    justify-content: end; 
+}
+
+.nav-link:hover {
+    color: #e4e4ec; 
+}
+
+#hello {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 700;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    color: #3c413b;
+    font-family: 'Handlee', cursive;
+}
+
+#about {
+    background-color: #607c82;
+    color: #e4e4ec;
+    border: none;
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+    justify-self: center;
+}
+
