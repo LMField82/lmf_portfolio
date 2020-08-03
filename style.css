@@ -1,39 +1,74 @@
 .body {
-    background-color: #b1b8be;
+    background-image: url(assets/markus-spiske-qjnAnF0jIGk-unsplash.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 550px;
+    
 }
 
-.navbar {
-    background-image: linear-gradient(#939d92,#b1b8be);
-}
-
-.nav-link {
-    color: #3c413b;
-    font-weight: 500;
-    font-size: x-large;
-    font-family: 'Handlee', cursive;
-    justify-content: end; 
-}
-
-.nav-link:hover {
-    color: #e4e4ec; 
-}
-
-#hello {
+.heading h1, h3 {
+    color: #970A7B;
+    font-weight: 800;
+    font-size: 150px;
     text-align: center;
-    font-size: 100px;
-    font-weight: 700;
-    margin-top: 8%;
-    margin-bottom: 8%;
-    color: #3c413b;
-    font-family: 'Handlee', cursive;
+    margin-top: 8rem;
+}    
+
+#source {
+    opacity: 1;
+    transition: opacity 1s;
 }
 
-#about {
-    background-color: #607c82;
-    color: #e4e4ec;
-    border: none;
-    font-family: 'Handlee', cursive;
-    font-size: 20px;
-    justify-self: center;
+#source.fade {
+    opacity: 0;
 }
 
+#source.unfade {
+    opacity: 1;
+}
+
+.icons {
+    text-align: center;
+    padding: 35px 0; 
+}
+
+.arrow {
+    color: #970A7B; 
+    padding-top: 8%;
+}
+
+#right-arrow {
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-left: 70%;
+}
+
+#left-arrow {
+    padding-top: 35%;
+    padding-left: 10%;
+}
+
+section {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.title {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 18%;
+}
+
+#about-me {
+    justify-content: center;
+}
+
+.block {
+    height: 300px;
+    width: 43%;
+}
+
+.color {
+    background-color: #970A7B;
+}
