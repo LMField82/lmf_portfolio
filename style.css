@@ -3,8 +3,11 @@
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
-    height: 550px;
-    
+    height: 550px;  
+}
+
+.body-choice {
+    background-color: #ffffff;
 }
 
 .heading h1, h3 {
@@ -45,8 +48,9 @@
 }
 
 #left-arrow {
-    padding-top: 35%;
+    padding-top: 39%;
     padding-left: 10%;
+    padding-bottom: 16%;
 }
 
 section {
@@ -64,6 +68,10 @@ section {
     justify-content: center;
 }
 
+#projects {
+    padding-right: 33%;
+}
+
 .block {
     height: 300px;
     width: 43%;
@@ -71,4 +79,8 @@ section {
 
 .color {
     background-color: #970A7B;
+}
+
+.no-gutters {
+    padding-top: 5%;
 }
