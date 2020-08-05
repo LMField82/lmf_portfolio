@@ -6,6 +6,37 @@
     background-color: white;
 }
 
+.project-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    
+}
+
+#container-border {
+    background-color: #970A7B;
+    padding: 25px;
+}
+
+#choice-background {
+    background-image: url(assets/markus-spiske-qjnAnF0jIGk-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+}
+
+.arrow {
+    color: #970A7B; 
+    padding-top: 8%;
+    
+}
+
+.icons {
+    text-align: end;
+    padding: 35px 20px; 
+}
+
 .container {
     padding: 50px;
 }
