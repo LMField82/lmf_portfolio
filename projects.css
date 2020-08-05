@@ -1,0 +1,25 @@
+.caption {
+   background-color: black;
+}
+
+#background {
+    background-color: white;
+}
+
+.container {
+    padding: 50px;
+}
+
+.project-images {
+    height: 35%;
+    width: 50%;
+}
+
+.project-link {
+    color: #970A7B
+}
+
+.project-link:hover {
+    color: white;
+    text-decoration: none;
+}
