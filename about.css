@@ -32,3 +32,10 @@
     background-color: white;
     padding: 2%;
 }
+
+.submit {
+    background-color: #970A7B;
+    border: none;
+    color: white;
+    opacity: .6;
+}
