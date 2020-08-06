@@ -3,7 +3,6 @@
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
-    height: 550px;  
 }
 
 .body-choice {
@@ -18,8 +17,8 @@
     margin-top: 8rem;
 }    
 
-.heading h4 {
-    padding-top: 8%;
+.heading h3 {
+    padding-top: 10%;
     color: #970A7B;
     text-align: center;
     font-size: 35px;

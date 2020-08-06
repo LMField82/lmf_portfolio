@@ -47,10 +47,20 @@
 }
 
 .project-link {
-    color: #970A7B
+    color: #970A7B;
+    font-size: 22px;
 }
 
 .project-link:hover {
-    color: white;
+    color: #970A7B;
     text-decoration: none;
+    font-size: 30px;
+}
+
+span.carousel-control-next-icon {
+    background-color: #970A7B;
+}
+
+span.carousel-control-prev-icon {
+    background-color: #970A7B;
 }
