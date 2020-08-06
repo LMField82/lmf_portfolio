@@ -1,0 +1,26 @@
+{
+  "name": "lmf_portfolio",
+  "version": "1.0.0",
+  "description": "porfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LMField82/lmf_portfolio"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LMField82/lmf_portfolio/issues"
+  },
+  "homepage": "https://github.com/LMField82/lmf_portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.11",
+    "nodemailer-smtp-transport": "^2.7.4"
+  }
+}
