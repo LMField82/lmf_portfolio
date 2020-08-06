@@ -39,3 +39,13 @@
     color: white;
     opacity: .6;
 }
+
+.tech {
+    font-size: 4em;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.center {
+    justify-content: center;
+}
