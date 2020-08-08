@@ -70,24 +70,5 @@
                 </div>
             </div>
         </div>
-        <script>
-            $("form-id").on("submit", (e) => {
-                e.preventDefault();
-
-                const email = $("#input-email").val().trim();
-                const name = $("#input-name").val().trim();
-                const message = $("#input-message").val().trim();
-
-                const data = {
-                    name, 
-                    email,
-                    message
-                };
-
-                $.post("/email", data, function() {
-                    console.log("Server received our data");
-                });
-            });
-        </script>
     </body>
 </html>
