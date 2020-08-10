@@ -3,8 +3,8 @@ const mailGun = require('nodemailer-mailgun-transport');
 
 const auth = {
     auth: {
-        api_key: ,
-        domain: ''
+        api_key: process.env.API_KEY,
+        domain: process.env.DOMAIN
     }
 };
 
@@ -26,5 +26,4 @@ const sendMail = (email, subject, text, cb) => {
     });
 }
 
-// Exporting the sendmail
 module.exports = sendMail;
