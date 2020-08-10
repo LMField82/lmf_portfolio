@@ -50,22 +50,22 @@
                             </div>
                        </div>
                        <hr>
-                       <form action="" method="POST" id="form-id">
-                            <div class="form-group">                     
-                                <label for="input-name">Name</label>
-                                <input type="text" class="form-control" id="input-name" aria-describedby="nameHelp">
-                            </div>
-                            <div class="form-group">
-                                <label for="input-email">Email address</label>
-                                <input type="email" class="form-control" id="input-email" aria-describedby="emailHelp">
-                                <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
-                            </div>
-                            <div class="form-group">
-                                <label for="input-message">Message</label>
-                                <textarea class="form-control" id="input-message" aria-describedby="messageHelp" rows="7"></textarea>
-                            </div>
-                            <button class="submit" type="submit">Send</button>
-                        </form>
+                       <form>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" class="form-control" id="subject" aria-describedby="emailHelp" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="text" rows="7" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" id="submit-btn" class="btn">Submit</button>
+                    </form>
                    </div> 
                 </div>
             </div>
