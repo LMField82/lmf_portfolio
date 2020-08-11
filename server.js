@@ -11,7 +11,7 @@ app.use(express.urlencoded({
 }));
 app.use(express.json());
 
-app.post('/email', (req, res) => {
+app.post('/about', (req, res) => {
     const { email, subject, text } = req.body;
     console.log('Data: ', req.body);
 
@@ -25,7 +25,7 @@ app.post('/email', (req, res) => {
 });
 
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, 'views', 'index.html'));
+    res.sendFile(path.join(__dirname, 'about.html'));
     //__dirname : It will resolve to your project folder.
 });
 
