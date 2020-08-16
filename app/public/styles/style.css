@@ -1,5 +1,5 @@
 .body {
-    background-image: url(public/assets/markus-spiske-qjnAnF0jIGk-unsplash.jpg);
+    background-image: url(../assets/markus-spiske-qjnAnF0jIGk-unsplash.jpg);
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;
@@ -67,7 +67,7 @@
 }
 
 #choice-background {
-    background-image: url(public/assets/markus-spiske-qjnAnF0jIGk-unsplash.jpg);
+    background-image: url(../assets/markus-spiske-qjnAnF0jIGk-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
