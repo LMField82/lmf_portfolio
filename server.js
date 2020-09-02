@@ -12,7 +12,7 @@ app.use(express.urlencoded({
 app.use(express.json());
 
 app.use(express.static("app/public"));
-app.post('/lmf_portfolio/about', (req, res) => {
+app.post('/about', (req, res) => {
     const { email, subject, text } = req.body;
     console.log('Data: ', req.body);
 
