@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">        
 
-        <link rel="stylesheet" href="./app/public/styles/about.css" type="text/css">
+        <link rel="stylesheet" href="./styles/about.css" type="text/css">
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -51,7 +51,7 @@
                             </div>
                        </div>
                        <hr>
-                       <form>
+                       <form id="form-data">
                         <div class="form-group">
                             <label for="email">Email address</label>
                             <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
@@ -73,8 +73,7 @@
         </div>
         <script>
 
-            $('form').on('submit', (e) => {
-                e.preventDefault();
+            $('form').on('submit', () => {
     
                 const email = $('#email').val().trim();
                 const subject = $('#subject').val().trim();
@@ -88,10 +87,10 @@
     
                 $.post('/about', data, function() {
                     console.log('Server recieved our data');
-        
+                    
                 });
             });
-    
+            
         </script>
     </body>
 </html>
